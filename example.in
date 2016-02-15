@@ -1,0 +1,13 @@
+# all lines start with a command symbol, '#' is for comments and is ignored
+# any unknown symbol (example: whitespace) also results in an ignored line
+
+# '=' means this is the output file we are creating
+= out_text.txt
+
+# '+' means this is a file to be concatenated
++ sample1.txt
+
+# '-' means an empty line should be inserted
+-
+
++ sample2.txt
